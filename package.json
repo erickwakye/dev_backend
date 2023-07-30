@@ -1,0 +1,21 @@
+{
+  "name": "dev_backend",
+  "version": "1.0.0",
+  "description": "basic social media app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "expresss"
+  ],
+  "author": "Eric Kwakye",
+  "license": "ISC",
+  "dependencies": {
+    "date-format": "^4.0.14",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
