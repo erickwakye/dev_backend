@@ -8,8 +8,6 @@ app.get('/', (req, res) => {
     res.status(200).send('Hello World!')
   });
 
-
-
 app.get("/api/v1/instagram", (req, res) => {
     const instaSocial = {
         username: "tipsysmino",
